@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .myDiv{
+        border: 5px outset red;
+        background-color: none;
+        text-align: center;
+    }
+    .column{
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+        border: 5px outset black;
+    }
+    .row{
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
     <title>Jean Carlo Ruiz Muñoz</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Jean Carlo Ruiz Muñoz</h1>
-    <p><strong>Lorem</strong>  ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates nemo, totam maiores laborum quos corporis porro molestiae placeat aut quibusdam fugiat commodi sit soluta, illum perferendis excepturi. Dolorem, sit.</p>
+    <div class="myDiv">
+        <h1>Jean Carlo Ruiz Muñoz</h1>
+        <p><strong>Dev, Thinker, Egineer, Self-Learner</strong></p>
+        <div class="row">
+            <div class="column" style="background-color: #aaa;">
+            <h2>I'm a WebDeveloper at Elfren Academy</h2>
+            <p>Aqui va una habladota de mi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, reiciendis modi? Omnis expedita cum perspiciatis, laborum saepe exercitationem aliquam tempore quas atque blanditiis deserunt error, cumque eius officiis at repellat.</p>
+            </div>
+            <div class="column" style="background-color: purple;">
+            <p>aqui van unos bullet points</p>
+            </div>
+        </div> 
+
+    </div>
 </body>
 </html>
 
