@@ -1,7 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.myDiv{
+    box-shadow:  0 4px 20px 0 rgba(0.2, 0.2, 0.2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: none;
+    text-align: center;
+    box-shadow: gray;
+
+}
+.column{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px;
+    text-align: left;
+
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 h1{
-    color: rgb(36, 36, 36);
+    color: rgb(75, 72, 72);
     font-size: 4rem;
 }
+h2{
+    color: rgb(59, 59, 59);
+    font-style: normal;
+}
 p{
-    color: black;
+    color: rgb(59, 59, 59);
 }
