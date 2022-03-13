@@ -2,26 +2,24 @@
     box-sizing: border-box;
 }
 .my-div{
-    box-shadow:  0 4px 20px 0 rgba(0.2, 0.2, 0.2, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:  0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: none;
     text-align: center;
-    box-shadow: gray;
+    
 
 }
 .column{
-    float: left;
+    flex-direction: row;
     width: 33%;
     padding: 10px;
     height: 400px;
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    margin: 20px 15px 20px 0px;
+    
 }
 .row{
-    content: "";
-    display: table;
-    clear: both;
+    display: flex;
+    border: solid olive;
 }
 img{
     width: 100%;
@@ -30,10 +28,16 @@ img{
 }
 dt{
     padding: 10px;
+    margin: 0px 15px ;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
 .subtitle{
     background-color: rgb(255, 127, 80);
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-flex;
     padding: 4px;
     border-radius: 5px;    
@@ -42,12 +46,8 @@ dt{
     padding: 20px;
     font-size: 30px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-}
-.fa:hover{
-    opacity: 0.7;
 }
 .fa-facebook{
     color: #3b5998;
